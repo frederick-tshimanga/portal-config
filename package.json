@@ -5,6 +5,9 @@
   "repository": "https://github.com/frederick-tshimanga/portal-config",
   "author": "frederick-tshimanga <166710982+frederick-tshimanga@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "echo \"Hello world\""
+  },
   "dependencies": {
     "@angular/cli": "^18.2.11"
   }
