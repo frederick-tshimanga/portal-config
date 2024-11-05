@@ -29,5 +29,5 @@ jobs:
     - run: cd portal-config
     - run: pwd
     - run: yarn install
-    - run: yarn build
+    - run: yarn run build
     - run: yarn test
