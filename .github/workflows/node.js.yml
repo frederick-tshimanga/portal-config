@@ -26,10 +26,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'yarn'
-    - name: Change directory
-      working-directory: ./portal-config
-      run: pwd
     - run: |
+        cd portal-config
         pwd
         yarn install
     - run: |
