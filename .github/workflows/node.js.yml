@@ -33,7 +33,6 @@ jobs:
         pwd
         yarn install
     - run: |
-        cd portal-config
         pwd
         yarn build
     - run: yarn test
